@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #9DC6EA;
+    height: 8vh;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li a{
+    margin-left: 25px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

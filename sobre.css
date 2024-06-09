@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #9DC6EA;
+    height: 8vh;
+}
+
+h3 {
+    color: #184DAB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+h4 {
+    color: #184DAB;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arroz {
+    display: flex;
+    justify-content: start;
+}
+
+.feijao {
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+}
+
+.tit {
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li a {
+    margin-left: 25px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Quem Somos */
+#img1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+/* Estilização Missão */
+
+.missao {
+    flex-direction: column;
+}
+
+.missao img {
+    max-width: 400px;
+    /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 9px;
+}
+
+
+/* Estilização Visão */
+.visao {
+    flex-direction: column;
+}
+
+
+.visao img {
+    max-width: 300px;
+    /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 9px;
+}
+
+.valores {
+    flex-direction: column;
+}
+
+.valores img {
+    max-width: 300px;
+    /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 9px;
+    margin-left: 10px;
+}
